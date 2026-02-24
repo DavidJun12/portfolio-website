@@ -1,0 +1,284 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DavidJun</title>
+    <link rel="stylesheet" href="{%static 'css/stingo.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- navbar section-->
+    <nav id="navbar" class="nav">
+        <div class="left-nav">
+            <h2 class="">Portfolio</h2>
+        </div>
+
+        <div class="right-nav">
+            <ul class="">
+                <li><a href="#home" class="t-white roboto">Home<i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#about" class="t-white roboto">About me<i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#skills" class="t-white roboto">Skills<i class="fa-solid fa-code"></i></a></li>
+                <li><a href="#projects" class="t-white roboto">Projects<i class="fa-solid fa-project-diagram"></i></a></li>
+                <li><a href="#contact" class="t-white roboto">Contact<i class="fa-solid fa-rocket"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--  home section  -->
+    <section id="home" class="">
+        <div class="home-left">
+            <div class="home-content">
+                <h6 class="popins">Hi, I'm</h6>
+                <h1 class="t-white">David Mwaura</h1>
+                <h4 class="popins">Software Engineer</h4>
+                <a href="{%static 'pdf/Jun.pdf'%}" target="_blank" class="">
+                    Resume
+                    <i class="fa-regular fa-folder-open resume-icon"></i>
+                </a>
+                <!--a class="btn live popinss" id="hireme" href="" target="_blank"> lets talk</a-->
+            </div>
+        </div>
+
+        <div class="home-right">
+            <div class="image-cont" id="mainimage">
+            
+                <img src="{%static 'images/davi.png'%}" alt="this is picture">
+            </div>
+        </div>
+    </section>
+
+    <!--  about section  -->
+    <section id="about">
+        <h1 class="t s-center t-white f-2">About Me</h1>
+        <div class="about-container">
+            <div class="about-left">
+            
+                <div class="about-img">
+                    <img src="{%static 'images/dog.png'%}" alt="this is picture">
+                </div>
+            </div>
+
+            <div class="about-right">
+                <div class="about-content">
+                    <h2 class="popinss">David Mwaura</h2>
+                    <p class="popinss">I am a passionate and detail-oriented Full Stack Web Developer who enjoys transforming ideas into functional, visually engaging, and user-friendly digital solutions.
+                        With a strong foundation in algorithms, and modern frameworks like React, I bring both creativity and technical precision to every project I undertake.
+                    </p>
+
+                    <p class="popinss">I thrive in collaborative environments where designers, developers, and project managers come together to craft seamless experiences. My approach combines clean, maintainable code with a keen eye for usability, security, scalability, and performance optimization.</p>
+
+                    <p class="popinss">Driven by passion and a commitment to continuous learning, I stay updated with emerging web technologies and industry best practices. My goal is to contribute innovative solutions that not only meet business objectives but also enhance user experiences in meaningful ways.</p>
+                    <!--a href="btn" id="hireme">Hire me</a-->
+                </div>
+            </div>
+        </div>    
+
+    </section>
+
+    <!--  skills section -->
+    <section id="skills">
+        <h1 class="t-center t-white f-2">Skills</h1>
+        <div class="skills-cont">
+            <div class="skills-left">
+                <div class="skills-img">
+                    <img src="{%static 'images/languages.jpg'%}" alt="image">
+                </div>
+            </div>
+            <div class="skills-right">
+                <div class="skills-container">
+                    <div class="python bar p-relative">
+                        <span class="bar-content left t-white">Python</span>
+                        <span class="bar-content right-skills t-white">70%</span>
+                    </div>
+                    <div class="Cplus bar p-relative">
+                        <span class="bar-content left t-white">C++</span>
+                        <span class="bar-content right-skills t-white">50%</span>
+                    </div>
+                    <div class="js bar p-relative">
+                        <span class="bar-content left t-white">Javascript</span>
+                        <span class="bar-content right-skills t-white">60%</span>
+                    </div>
+                    <div class="html bar p-relative">
+                        <span class="bar-content left t-white">HTML & CSS</span>
+                        <span class="bar-content right-skills">80%</span>
+                    </div>
+                    <div class="django bar p-relative">
+                        <span class="bar-content left t-white">Django</span>
+                        <span class="bar-content right-skills t-white">70%</span>
+                    </div>
+                     <div class="flask bar p-relative">
+                        <span class="bar-content left t-white">Flask</span>
+                        <span class="bar-content right-skills t-white">60%</span>
+                    </div>
+                    <div class="react bar p-relative">
+                        <span class="bar-content left t-white">React</span>
+                        <span class="bar-content right-skills t-white">65%</span>
+                    </div>
+                    
+                    <div class="mysql bar p-relative">
+                        <span class="bar-content left t-white">MySQL</span>
+                        <span class="bar-content right-skills t-white">50%</span>
+                    </div>
+                    <div class="ai bar p-relative">
+                        <span class="bar-content left t-white">AI & ML</span>
+                        <span class="bar-content right-skills t-white">50%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  project section  -->
+    <section id="projects">
+        <h1 class="t-center t-white f-2">Projects</h1>
+        <div class="projects-container s-center">
+            <div class="project-item f-col s-center items-center">
+                <h2 class="t-white popinss">AI Boma Health</h2>
+                <p class="t-white popinss">This project seeks to explore how AI, particularly machine learning (ML) and expert systems, can
+be harnessed to enhance the prediction, diagnosis, and treatment of hypertension. The project aspires to
+improve patient outcomes, enhance healthcare accessibility, and contribute to the broader field
+of AI applications in primary healthcare.</p>
+                <div class="button">
+                    <a href="https://github.com/DavidJun12/AI-Boma-Health.git" target="_blank" class="btn mx-1 m-top">GitHub</a>
+                </div>
+            </div>
+            <div class="project-item f-col s-center items-center">
+                <h2 class="t-white popinss">Farmers Connect</h2>
+                <p class="t-white popinss">Farmers Connect is a web-based digital marketplace designed to bridge the gap between farmers and consumers by enabling direct interaction and trade. The application supports secure user authentication, role-based profiles for farmers and customers, and efficient product listing and management.</p>
+                <div class="button">
+                    <a href="https://github.com/DavidJun12/farmers-connect.git" target="_blank" class="btn mx-1 m-top">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-item f-col s-center items-center">
+                <h2 class="t-white popinss">Commerce Shop</h2>
+                <p class="t-white popinss">Django-based commercial web application designed to provide vendors with a flexible platform to showcase and sell their products online. The system supports product management, vendor-focused presentation, and scalable backend operations, making it suitable for multiple sellers while ensuring reliability, security, and efficient data handling for e-commerce use cases.</p>
+                <div class="button">
+                    <a href="https://github.com/DavidJun12/commerce-shop.git" target="_blank" class="btn mx-1 m-top">GitHub</a>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    <!--  contact me section  -->
+    <section id="contact" class="">
+        <h1 class="t-center">Contact Me</h1>
+        <div class="contact-container">
+            <div class="form" id="contactform">
+                <!--form method="post" action="{% url 'contact' %}"-->
+                <form method="post" id="contactForm">
+                    {% csrf_token %}
+                    <div class="name form-div">
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            class="popinss"
+                            placeholder="Enter your Name"
+                            minlength="2"
+                            maxlength="30"
+                            required>
+                    </div>
+
+                    <div class="email form-div">
+                        <input type="email" name="email" id="email" class="popinss" placeholder="Enter your Email" required>
+                    </div>
+
+                    <div class="phone form-div">
+                        <input type="tel" name="number" id="" class="popinss" placeholder="Enter your Phone" required pattern="[0-9]{10,12}" title="Enter a valid phone number (10-12) digits">
+                    </div>
+
+                    <div class="textarea form-div">
+                        <textarea name="content" id="textarea" cols="30" rows="10" class="popinss" placeholder="Enter your message"></textarea>
+                    </div>
+
+                    <button type="submit" class="popinss" id="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--  footer section -->
+    <footer id="footer">
+        <ul class="links">
+            <li><a href="#home" class="popinss">Home</a></li>
+            <li><a href="#about" class="popinss">About Me</a></li>
+            <li><a href="#skills" class="popinss">Skills</a></li>
+            <li><a href="#projects" class="popinss">Project</a></li>
+            <li><a href="#home" class="popinss">Portfolio</a></li>
+        </ul>
+
+        <ul class="font-awesome">
+            <a href="https://linkedin.com/in/david-mwaura12" target="_blank">
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </a>
+            <a href="https://github.com/DavidJun12" target="_blank">
+                <li><i class="fa-brands fa-github"></i></li>
+            </a>
+            <a href="" target="_blank">
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+        </ul>
+        <p class="popinss">&copy; All Rights Reserved - <span class="cpy-white popinss">DavidJun</span></p>
+        <p class="popinss">2026</p>
+    </footer>
+
+</body>
+
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.getElementById("contactForm");
+    if (!form) return;
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault(); //  stop page refresh
+
+        const formData = new FormData(this);
+
+        fetch("{% url 'contact' %}", {
+            method: "POST",
+            headers: {
+                "X-CSRFToken": formData.get("csrfmiddlewaretoken")
+            },
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === "success") {
+                showToast(data.message);
+                this.reset();
+            } else {
+                showToast(data.message, "error");
+            }
+        })
+        .catch(() => {
+            showToast("Something went wrong. Try again.", "error");
+        });
+    });
+
+});
+
+function showToast(message, type = "success") {
+    const toast = document.createElement("div");
+    toast.className = `toast ${type}`;
+    toast.textContent = message;
+
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 5000);
+}
+</script>
+
+
+
+</html>
